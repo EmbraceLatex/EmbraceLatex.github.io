@@ -1,0 +1,18 @@
+.nav-color {
+	color: rgb(102, 152, 53);
+	font-size: 16px;
+}
+.nav>li>a:hover {
+	background: rgba(102, 152, 53, 0.3);	
+	color: white;
+}
+body {
+	background: rgb(102, 152, 53);
+}
+.main {
+	background: white;
+}
+
+p {
+	font-size: 16px;
+}
