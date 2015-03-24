@@ -6,6 +6,14 @@
 	background: rgba(102, 152, 53, 0.3);	
 	color: white;
 }
+.navs {
+	color: rgb(102, 152, 53) !important;
+	font-size: 16px;
+}
+.navs:hover {
+	background: rgba(102, 152, 53, 0.3) !important;	
+	color: white !important;	
+}
 body {
 	background: rgb(102, 152, 53);
 }
