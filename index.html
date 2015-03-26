@@ -16,7 +16,7 @@
 </head>
 <body>
 <main class="main">
-<div class="container">
+<div class="container" id="container">
 
 <div class="visible-xs" style="padding: 30px;"></div>
   <div class="col-xs-12 text-center hidden-xs">
@@ -139,5 +139,9 @@
 <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 <script src="js/bootstrap.min.js"></script>
+<!-- 讓網頁無內容也可以知道最大高度 -->
+<script type="text/javascript">
+document.getElementById('container').style.minHeight=window.innerHeight+"px";
+</script>
 </body>
 </html>
