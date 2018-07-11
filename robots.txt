@@ -3,3 +3,4 @@ Sitemap: http://embracelatex.com.tw/sitemap.xml
 # Allow crawling of all content
 User-agent: *
 Disallow:
+
